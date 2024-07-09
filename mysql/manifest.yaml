@@ -2,6 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: mysql
+  Namespace: expense
   labels:
     component: mysql
     project: expense
